@@ -1,7 +1,12 @@
 import React from "react";
+import Editor from "./Lexical";
 
 function App() {
-  return <div>hello</div>;
+  return (
+    <div>
+      <Editor />
+    </div>
+  );
 }
 
 export default App;
